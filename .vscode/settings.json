@@ -1,0 +1,29 @@
+{
+    "powerquery.client.additionalSymbolsDirectories": [],
+    "editor.defaultFormatter": "PowerQuery.vscode-powerquery",
+    "editor.formatOnSave": true,
+    "excel-power-query-editor.autoBackupBeforeSync": true,
+    "excel-power-query-editor.backup.maxFiles": 10,
+    "excel-power-query-editor.sync.openExcelAfterWrite": false,
+    "excel-power-query-editor.verboseMode": true,
+    "powerQueryLint.enable": true,
+    // Spell checker: workspace dictionary
+    "cSpell.words": [
+        "ListObject",
+        "ListRow",
+        "LabResults",
+        "Compliance",
+        "Workbook",
+        "Rubberduck",
+        "PowerQuery",
+        "MCode"
+    ],
+    // File associations for VBA modules
+    "files.associations": {
+        "*.bas": "vba",
+        "*.cls": "vba",
+        "*.frm": "vba"
+    },
+    // PowerShell: keep the terminal quiet
+    "powershell.integratedConsole.showOnStartup": false
+}

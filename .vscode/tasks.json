@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Import VBA into Excel",
+            "type": "shell",
+            "command":"powershell.exe ./scripts/import.ps1",
+            "group": "build"
+        },
+        {
+            "label": "Export VBA from Excel",
+            "type": "shell",
+            "command": "powershell.exe ./scripts/export.ps1"
+        },
+        {
+            "label": "Run Rubberduck Tests",
+            "type": "shell",
+            "command": "powershell.exe ./scripts/run-tests.ps1"
+        }
+    ]
+}

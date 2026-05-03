@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "streetsidesoftware.code-spell-checker",
+        "ewc3labs.excel-power-query-editor",
+        "powerquery.vscode-powerquery",
+        "clientfirsttechnologies.power-query-lint",
+        "vscode-icons-team.vscode-icons",
+        "ms-vscode.powershell"
+    ]
+}

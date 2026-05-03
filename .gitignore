@@ -1,0 +1,20 @@
+# Ignore Excel-generated junk
+*.xlsm
+*.xlsb
+*.xlsx
+*.xlw
+*.xla
+*.xlam
+*.tmp
+
+# Ignore VBA project cache
+*.exd
+
+# Ignore VSCode workspace files
+.vscode/*.code-workspace
+
+# Ignore PowerShell history
+*.pshistory
+
+# Ignore config until created
+config.json
